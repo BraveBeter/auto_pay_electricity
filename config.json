@@ -1,0 +1,13 @@
+{
+  "vpn_client_exe": "C:/Program Files (x86)/Sangfor/SSL/SangforCSClient/SangforCSClient.exe",
+  "vpn_username": "20221536",
+  "vpn_password": "6130@suepCSGO",
+  "fee_site": "http://10.50.2.206:80/",
+  "site_username": "20221536",
+  "site_password": "6130@suepCSGO",
+  "chromedriver_path": "",
+  "default_room": "B122",
+  "default_amount": "1",
+  "step_delay": 3,
+  "user_agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0"
+}
