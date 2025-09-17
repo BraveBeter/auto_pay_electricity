@@ -27,7 +27,7 @@ from typing import Iterable
 
 import requests
 from bs4 import BeautifulSoup
-from util import AuthServiceError, VPNError, test_network
+from toolkit.util import AuthServiceError, VPNError, test_network
 
 
 @dataclass

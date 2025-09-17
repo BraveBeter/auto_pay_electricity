@@ -3,11 +3,11 @@ import time
 
 import requests
 from bs4 import BeautifulSoup
-from util import load_config
-from util import get_resource_path
-from util import AuthServiceError
+from toolkit.util import load_config
+from toolkit.util import get_resource_path
+from toolkit.util import AuthServiceError
 
-config_path = get_resource_path("config.json")
+config_path = get_resource_path("auto_pay_electricity\\toolkit\config.json")
 cfg = load_config(config_path)
 user_agent = cfg.get("user_agent")
 
