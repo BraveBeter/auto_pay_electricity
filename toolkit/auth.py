@@ -7,7 +7,7 @@ from util import load_config
 from util import get_resource_path
 from util import AuthServiceError
 
-config_path = get_resource_path("../config.json")
+config_path = get_resource_path("config.json")
 cfg = load_config(config_path)
 user_agent = cfg.get("user_agent")
 
