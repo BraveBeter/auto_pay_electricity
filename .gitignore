@@ -3,3 +3,5 @@
 /dist00
 /__pycache__
 /.venv
+/toolkit/__pycache__
+/.idea
