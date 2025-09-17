@@ -1,6 +1,3 @@
-import json
-import os
-import sys
 import threading
 import tkinter as tk
 from tkinter import messagebox
@@ -9,11 +6,9 @@ import time
 import pyautogui
 import psutil
 from requests import HTTPError
-import electricity
-import auth
-from electricity import RechargeInfo
-from util import get_resource_path
-from util import  load_config
+from util.util import RechargeInfo
+from util.util import get_resource_path, auth, electricity
+from util.util import  load_config
 # 使用示例
 config_path = get_resource_path("config.json")
 cfg = load_config(config_path)

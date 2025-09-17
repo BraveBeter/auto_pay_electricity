@@ -70,7 +70,7 @@ def get_resource_path(relative_path):
         base_path = sys._MEIPASS
     else:
         # 开发环境或者未打包的情况
-        base_path = os.path.abspath(".") # 或者 os.path.dirname(__file__)
+        base_path = os.path.abspath("..") # 或者 os.path.dirname(__file__)
     return os.path.join(base_path, relative_path)
 
 # === 加载配置 ===
