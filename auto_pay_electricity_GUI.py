@@ -27,7 +27,7 @@ def is_vpn_running(exe_name='SangforCSClient.exe') -> bool:
 
 # === 核心流程函数 ===
 def login_vpn(vpn_exe, username, password, delay):
-    if is_vpn_running():
+    if is_vpn_running(vpn_exe):
         print("🔗 VPN 已连接，无需重新启动。")
         return
 
