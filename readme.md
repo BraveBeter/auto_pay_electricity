@@ -12,8 +12,8 @@
 
 ## 鸣谢
 
-    使用了[SUEP-TOOKIT](https://github.com/zhengxyz123/suep-toolkit)的开源代码,在此基础上增加了一些功能，
-    原项目采用MIT-LICENSE，本项目保留原项目继承并遵循原项目的许可证。
+使用了[SUEP-TOOKIT](https://github.com/zhengxyz123/suep-toolkit)的开源代码,在此基础上增加了一些功能，
+原项目采用MIT-LICENSE，本项目保留原项目继承并遵循原项目的许可证。
 
 ## 声明
 **由于涉及充值花费，请使用者慎用。**
