@@ -4,8 +4,8 @@
 **由于涉及充值花费，请使用者慎用。**
 
 ## 使用方法
-1. 请先修改toolkit/config.json文件，填写对应信息。
-2. 直接运行main.py，输入信息即可使用。也使用pyinstaller进行打包，获得窗体程序后使用。
+1. 请先修改`toolkit/config.json`文件，填写对应信息。
+2. 直接运行 `main.py`，输入信息即可使用。也使用pyinstaller进行打包，获得窗体程序后使用。
 
 > 注意：
     一键充值，如果未登录校园网VPN，则会自动登录，但登录过程是用程序模拟点击，所以不能移动鼠标或键盘，否则可能失败。
@@ -13,4 +13,5 @@
 
 ## 鸣谢
 
-    使用了 https://github.com/zhengxyz123/suep-toolkit 的开源代码。
+    使用了[SUEP-TOOKIT](https://github.com/zhengxyz123/suep-toolkit)的开源代码,在此基础上增加了一些功能，
+    原项目采用MIT-LICENSE，本项目保留原项目继承并遵循原项目的许可证。
